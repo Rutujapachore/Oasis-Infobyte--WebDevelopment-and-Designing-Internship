@@ -1,0 +1,504 @@
+#HTML CODE
+
+***********************************************************
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"> <!--boot-strap-->
+    <title>Ratnala SaiGanesh || Welcome All</title>
+</head>
+<body>
+
+<!-- Nav Bar -->
+    <nav id="navbar" class="nav">
+      <div class="profile">
+        <img src="profile.jpeg" alt="Person" width="96" height="96">
+        <a href="https://www.linkedin.com/in/ratnala-saiganesh/" target="_self" style="color: black;">RATNALA SAI GANESH</a>
+      </div>
+      <div class="top">
+      <ul class="nav-list">
+        <li>
+          <a href="#1">Home</a>
+        </li>
+        <li>
+            <a href="#2">About</a>
+        </li>
+        <li>
+          <a href="#3">Projects</a>
+        </li>
+        <li>
+          <a href="#4">Contact</a>
+        </li>
+      </ul>
+      </div>
+    </nav>
+<!-- Nav Bar Ends -->
+
+<!-- START WELCOME SECTION -->
+ <section id="1" class="welcome-section">
+  <div class="flex">
+    <img src="./profile.jpeg" alt="profile" class="profile-main">
+    <div class="text">
+    <h1 class="t1">Hello...!!!</h1>
+    <h2><span style="color: blueviolet;">I'm </span>Saiganesh Ratnala</h2>
+    <p style="text-align: center ;">Undergraduate at <b>SNIST-HYD</b></p>
+    </div>
+  </div>
+  <div>
+    <a href="SaiGanesh_Resume.pdf" download>
+      <button class="btn" >My Resume</button></a>
+  </div>
+  </section>
+  
+  <!-- END WELCOME SECTION -->
+
+  <!-- About Me -->
+  <section id="2" class="about">
+    <h2>About Me...</h2>
+    <div class="abt">
+    <p>
+        Hello Everyone!! I'm SaiGanesh from Bhadradri District, Telangana. I am pursuing my Bachalor of Technology in Electronics
+        and Computer Engineering at Sreenidhi Institute of Science and Technology, Hyderabad.
+        I am enthusatic in learning new things and i am got at doing Front-end Development. Visit my 
+        <a href="https://www.linkedin.com/in/ratnala-saiganesh" target="_blank" class="Link">LinkedIn</a> profile.
+    </p>
+    <br> 
+    <p>
+      I'm a part of DOD team (Department of Designing) in The Robotics Club-SNIST. Where I worked under a team and made some beautiful poster 
+      for Festivals wishing the students of our club and the College. Also I have done few events posters for my Club. 
+      You can see my works from instagram handles <a href="https://instagram.com/theroboticsclubsnist?igshid=MzRlODBiNWFlZA==" target="_blank" class="Link" >The Robotics Club-SNIST</a>.
+      In the club I have done few projects based on IoT and also i have guided a group of 9 students in doing a project named pets health monitoring system.
+    </p>
+    <br>
+    <h3>My Skills</h3>
+    <br>
+    <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Arduino</div>
+        <div class="skill">NodeMCU</div>
+        <div class="skill">Canva</div>
+        <div class="skill">Adobe PhotoShop</div>
+    </div>
+</div>
+    
+  </section>
+  <!-- End of About Me -->
+
+  <!-- Projects -->
+  <section id="3" class="Projects">
+    <h2>Projects</h2>
+    <br>
+    <br>
+    <div class="display">
+    <div class="card">
+      <img src="project1.png" alt="Project1" class="img">
+      <div class="container">
+        <h4><b>Pets Health Monitoring System</b></h4>
+        <p>This project is about monitoring the Health of Pets like Dogs and Cats by Owners using IoT.</p>
+        <p>
+          <br><br><br><br>
+          <a href="https://www.electronicwings.com/users/saiganeshratnala1976/projects/3210/pets-health-monitoring-system" target="_blank">
+            <button>Know More</button>
+          </a>
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="project2.png" alt="Project2" class="img">
+      <div class="container">
+        <h4><b>Mittinrich</b></h4>
+        <p>The terra-smart compost product may assist in creating manure from organic waste, such as vegetable and fruit
+          scraps, so that it can be used to grow plants in your home and gardens without the need of chemical manures.
+          </p>
+          <p>
+            <a href="https://github.com/SUNKUSHANMUKH/terra-smart-compost" target="_blank">
+              <button>Know More</button>
+            </a>
+          </p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="project3.png" alt="Project3" class="img">
+      <div class="container">
+        <h4><b>Swatch Neer </b></h4>
+        <p>Swatch Neer means water cleaning bot. This is a Waterbot. This bot is useful for cleaning the surface of the
+          water bodies and collects the garbage. In this bot we use IoT to control the bot.</p>
+          <br>
+        <p><button >Know More</button></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="project4.png" alt="Project3" class="img">
+      <div class="container">
+        <h4>HTML and CSS</h4>
+        <p>Its is a basic project using HTML, CSS and its is an Responsive website</p>
+        <br><br><br><br><br>
+        <p><button >Know More</button></p>
+      </div>
+    </div>
+    </div>
+
+  </section>
+<!-- end of projects -->
+
+  <!-- START CONTACT SECTION -->
+
+  <section id="4" class="contact">
+    <div>
+      <h2>Here are my Social Media Handles</h2>
+      <p><i>Thanks In advance....!!!</i></p>
+    </div>
+    <br>
+    <br>
+    <div>
+      <div class="handles">
+        <a href="https://www.facebook.com/saiganesh.ratnala" target="_blank"><i class="bi bi-facebook" style="font-size: 25px; color:rgba(255, 255, 255, 0.4); padding: 10px;"></i>Facebook</a>
+        <a href="https://www.linkedin.com/in/ratnala-saiganesh" target="_blank"><i class="bi bi-linkedin" style="font-size: 25px; color:rgba(255, 255, 255, 0.4);padding: 10px;"></i>LinkedIn</a>
+        <a href="https://instagram.com/saiganesh_ratnala" target="_blank"><i class="bi bi-instagram" style="font-size: 25px; color:rgba(255, 255, 255, 0.4); padding: 10px;"></i>Instagram</a>
+        <a href="https://github.com/saiganesh1976" target="_blank"><i class="bi bi-github" style="font-size: 25px; color:rgba(255, 255, 255, 0.4); padding: 10px;"></i> GitHUB</a>
+        <br>
+        <br>
+        <p style="color: aliceblue;">Let's get in touch. Send me a message:</p>
+
+        <form action="/action_page.php" target="_blank">
+          <p><input class="input" type="text" placeholder="Name" required name="Name"></p>
+          <p><input class="input" type="text" placeholder="Email" required name="Email"></p>
+          <p><textarea name="text" id="text" class="input" cols="30" rows="10" placeholder="write here...." required></textarea></p>
+          <p><button class="submit" type="submit"><i class="bi bi-send"></i> SEND MESSAGE</button></p>
+        </form>
+    </div>
+    </div>
+    </section>
+
+  <!-- END CONTACT SECTION -->
+
+  <!-- START FOOTER SECTION -->
+  <footer class="footer">
+    <p>All Copyrights are reserved 2023</p>
+    <p> &copy; Created by SaiGanesh Ratnala</p>
+  </footer>
+  <!-- END OF FOOTER -->
+</body>
+</html>
+
+**************************************************************
+
+#CSS CODE
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    scroll-behavior: smooth;
+    height: 100vh;
+    width: 100%;
+    background: black; 
+  } 
+hr{
+  width: 70%;
+  align:center;
+  }
+h1,
+h2 {
+    text-align: center;
+  }
+h1{
+    font-size: 60px;
+  }
+h2{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+  }
+ul{
+    list-style: none;
+  }
+a{
+    text-decoration: none;
+  } 
+  /* nav */
+.nav{
+    display: flex;
+    /* justify-content: flex-end; */
+    position: fixed;
+    width: 100%;
+    height: 8vh;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%); 
+   }
+.top{
+    margin-left: 750px;
+   }
+.profile{
+    margin: 10px;
+    display: inline-block;
+    padding: 0 25px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+} 
+.profile img{
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+  }
+.nav-list{
+    display: flex;
+    align-items: right;
+    margin-right: 10px;
+  }
+.nav-list a{
+    display: block;
+    font-size: 23px;
+    color: #1f1f1f;
+    padding: 15px;
+  } 
+.nav-list a:hover{
+    color:white;
+  } 
+  /* Welcome section */
+  .flex{
+    display: flex;
+    margin-top: 110px;
+  }
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    padding: 90px;
+    width: auto;
+    height: 100vh;
+    color: white;
+    background-image: url("./background.png");
+    background-size: cover;
+    background-position: center;
+}
+.text{
+  margin-left: 100px; 
+}
+.welcome-section  p {
+    font-size: 20px;
+    font-style: italic;
+  }
+  .profile-main{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: 1px solid white;
+ }              
+.btn{
+    background: linear-gradient(90deg, #141e30, #243b55 100%); 
+    margin: 80px;
+    padding: 15px 30px ;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(26, 169, 209);            
+    border-radius: 20px;
+    border:none;
+    display: block;
+}
+.btn:hover{
+    background:rgba(255, 255, 255, 0.4);
+    color: white;
+    text-decoration: none;
+}
+.about{
+    padding: 90px;
+    width: auto;
+    height: 100vh;
+    color: white;
+ }
+.Link{
+   color:aquamarine; 
+   font-weight: bold;
+ }
+.abt{
+    display: grid;
+    padding: 20px;
+    text-align: justify;
+}
+.about p{
+    justify-content: center;
+    flex-direction: column;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skill{
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #1f1f1f;
+    background-color: rgb(217, 217, 217);
+    opacity:70%;
+}
+/* PROJECTS */
+.Projects{
+    width: auto;
+    padding: 90px;
+    height: 100vh;
+}
+.img{
+    width: auto;
+    height: 150px;
+    border-radius: 0px;
+    margin: auto;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+    background-color: white;
+    transition: 0.3s;
+    width: 100%;
+    height:auto;
+    text-align: center;
+    margin: 15px;
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 8px; 
+    transition: 0.5s;
+}
+.card:hover{
+  transform: scale(1.1);
+}
+.display{
+  display: flex;
+}
+.card button{
+  border: none;
+  outline: 0;
+  padding: 12px;
+  border-radius: 10px;
+  color: white;
+  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%); 
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card button:hover {
+  opacity: 0.7;
+  color: #141e30;
+  font-weight: bold;
+  background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+}
+img{
+  border-radius: 5px 5px 0 0;
+}
+/* Contact section */
+.contact {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+    width: 100%;
+    height: 100vh;
+    padding: 90px;
+    background: linear-gradient(90deg, #141e30, #243b55 100%); 
+  }
+.handles{
+    justify-content: center;
+    text-decoration: none;
+}
+.handles a{
+  color:rgba(255, 255, 255, 0.4);
+  font-size: 20px;
+}
+.input{
+  border: none;
+  padding: 10px;
+  width: 400px;
+  margin: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+.submit{
+  background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+}
+/* .icons{
+  font-size: 25px; 
+  color:rgba(255, 255, 255, 0.4); 
+  padding: 20px;
+  margin: 10px;
+  gap: 20px;
+} */
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    color: white;
+    background: black;
+  }
+  @media (max-width:700px) {
+    .nav{
+      display: block;
+      text-align: center;
+      justify-content: center;
+    }
+    .top{
+      margin-left: 0px;
+    }
+    .nav-list{
+      display: block;
+      align-items: center;
+    }
+    .welcome-section{
+      height: 100vh;
+      text-align: center;
+      padding-top: 300px;
+    }
+
+    .about{
+      padding:400px 25px;
+      height: auto;
+    }
+    .display{
+      display: block;
+    }
+    .profile{
+      width: auto;
+     
+    }
+    .Projects{
+      height: auto;
+      padding: 400px 25px;
+    }
+    .card{
+      border-radius: 20px;
+    }
+    .footer{
+      display: block;
+      text-align: center;
+    }
+    .footer p{
+      margin-top: 20px;
+    }
+  }
+
+********************************************************
